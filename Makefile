@@ -16,6 +16,8 @@ EXTRA_CFLAGS += -Wno-unknown-pragmas
 #EXTRA_CFLAGS += -Wno-unused
 EXTRA_CFLAGS += -Wno-address
 EXTRA_CFLAGS += -Wno-vla -g
+EXTRA_CFLAGS += -Wno-missing-prototypes
+EXTRA_CFLAGS += -Wno-missing-declarations
 
 EXTRA_CFLAGS += -I$(src)/include -I$(srctree)/$(src)/include
 EXTRA_CFLAGS += -I$(src)/hal/phydm -I$(srctree)/$(src)/hal/phydm
